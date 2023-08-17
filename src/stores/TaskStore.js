@@ -88,7 +88,6 @@ export const useTaskStore = defineStore("taskStore", {
                     .then(() => {
                         this.tasks = this.tasks.filter((object) => object.id !== id);
                     });
-                console.log("Object removed successfully from Firebase.");
             } catch (error) {
                 console.error("Error updating data in Firebase:", error);
             }

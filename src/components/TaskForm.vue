@@ -44,7 +44,7 @@ form{
 input[type="text"] {
   position: relative;
   background: #ffffff;
-  padding: 4px;
+  padding: 4px 10px;
   width: 350px;
   border-radius: 5px;
   border: none;

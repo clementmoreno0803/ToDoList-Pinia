@@ -148,9 +148,11 @@ header {
 #filter__all {
   color: #3da5d9;
   margin-right: 20px;
+  cursor: pointer;
 }
 #filter__fav {
   color: #f6dda3;
+  cursor: pointer;
 }
 
 /* task-list */
@@ -158,11 +160,15 @@ header {
   margin: 100px auto;
   color: white;
 }
+.task-list p {
+  margin-bottom: 30px;
+}
 
 .task-list-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
 .new-task-form {
@@ -239,6 +245,10 @@ header {
   .task-list {
     margin: 100px auto;
     color: white;
+  }
+
+  .task-list p {
+    text-align: center;
   }
 
   .task-list-container {

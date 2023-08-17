@@ -34,14 +34,13 @@ export default {
 
 .task-card {
     padding: 6px 20px;
-    margin: 20px;
     box-shadow: 2px 4px 6px rgba(255, 255, 255, 0.865);
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100px;
     border-radius: 10px;
-    width: 200px;
+    width: auto;
     border: 1px solid white;
   
 }
@@ -73,7 +72,7 @@ export default {
 }
 
 .task-card.active {
-    background: rgba(255, 255, 255, 0.734);
+    background: rgba(255, 255, 255, 0.25);
     transition: all 1.4 ease-out;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.734);
     border: none;
