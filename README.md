@@ -1,30 +1,14 @@
-# toDoList-Pinia
+# Objectif de ce projet
 
-This template should help get you started developing with Vue 3 in Vite.
+### 1 - Apprendre la Composition API
+### 2 - Requêtes API REST
+### 3 - Pinia
+### 4 - Test de Vite
 
-## Recommended IDE Setup
+# Projet réalisé avec :
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-# ToDoList-Pinia
+### Vue 3
+### Vue Composition Api
+### Firebase Real Time Database
+### Pinia
+### Vite
